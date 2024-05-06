@@ -2,3 +2,4 @@ celery==3.1.17
 flask==0.10.1
 gunicorn==19.2.1
 requests==2.5.1
+werkzeug>=3.0.3 # not directly required, pinned by Snyk to avoid a vulnerability
